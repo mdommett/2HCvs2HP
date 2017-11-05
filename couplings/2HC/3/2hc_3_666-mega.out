@@ -1,0 +1,10 @@
+4428 atoms
+Generating molecules...
+40 molecules generated
+Generating dimers...
+70 dimers generated
+Finding unique dimers...
+Number of unique dimers: 2
+Writing 2hc_3_666-mega_dimer_0.xyz
+Writing 2hc_3_666-mega_dimer_1.xyz
+Total time: 1022.765s

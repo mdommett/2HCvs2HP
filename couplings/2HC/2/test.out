@@ -1,0 +1,18 @@
+/opt/sge_spool/8.5.1/nxn33/job_scripts/148150: line 17:  6650 Killed                  pw.x < $1.in > $1.out
+/opt/sge_spool/8.5.1/nxn33/job_scripts/148252: line 17: 17553 Killed                  pw.x < $1.in > $1.out
+Traceback (most recent call last):
+  File "/data/home/btx008/Scripts/coupling_input.py", line 11, in <module>
+    dimer = rf.read_xyz(sys.argv[1])[-1]
+  File "/data/home/btx008/cryspy/read_file.py", line 86, in read_xyz
+    with open(in_name) as xyz_file:
+IOError: [Errno 2] No such file or directory: '2hc_2_663-mega_dimer_*.xyz'
+ Unable to open input file "2hc_2_663-mega_dimer_**.com" or "2hc_2_663-mega_dimer_**.com".
+Error: segmentation violation
+   rax 0000000000000000, rbx 000000000000001b, rcx ffffffffffffffff
+   rdx 0000000000006ebf, rsp 00007fff3f8a2e98, rbp 00007fff3f8aa3d0
+   rsi 000000000000000b, rdi 0000000000006ebf, r8  00002b33b60ab740
+   r9  0000000000000000, r10 00007fff3f8a2c20, r11 0000000000000202
+   r12 ffffffffffffffff, r13 00007fff3f8aa4d0, r14 0000000000000000
+   r15 0000000000000000
+  --- traceback not available
+/opt/sge_spool/8.5.1/sm7/job_scripts/159440: line 18: 28351 Aborted                 (core dumped) g09 $j ${j::-4}.out
