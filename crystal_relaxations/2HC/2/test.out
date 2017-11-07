@@ -1,0 +1,2 @@
+/opt/sge_spool/8.5.1/nxn33/job_scripts/148150: line 17:  6650 Killed                  pw.x < $1.in > $1.out
+/opt/sge_spool/8.5.1/nxn33/job_scripts/148252: line 17: 17553 Killed                  pw.x < $1.in > $1.out
