@@ -1,0 +1,131 @@
+/opt/sge_spool/8.5.1/nxn32/job_scripts/171171: line 14: rel2xyz: command not found
+Traceback (most recent call last):
+  File "/data/home/btx008/compchem-scripts/rel2xyz.py", line 13, in <module>
+    mega=ha.make_mega_cell(atoms,3,3,3,vectors,alt_multi=True)
+TypeError: make_mega_cell() got an unexpected keyword argument 'alt_multi'
+Traceback (most recent call last):
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 20, in <module>
+    cell=rf.read_xyz(args.input)[-1]
+  File "/data/home/btx008/cryspy/read_file.py", line 86, in read_xyz
+    with open(in_name) as xyz_file:
+IOError: [Errno 2] No such file or directory: '2hc_1_444-mega.xyz'
+ Unable to open input file "2hc_1_444-mega_UFF.com" or "2hc_1_444-mega_UFF.com".
+Error: segmentation violation
+   rax 0000000000000000, rbx 0000000000000016, rcx ffffffffffffffff
+   rdx 0000000000006310, rsp 00007ffc822bd508, rbp 00007ffc822c4a40
+   rsi 000000000000000b, rdi 0000000000006310, r8  00002b63926cc2c0
+   r9  0000000000000000, r10 00007ffc822bd290, r11 0000000000000202
+   r12 ffffffffffffffff, r13 00007ffc822c4b40, r14 0000000000000000
+   r15 0000000000000000
+  --- traceback not available
+/opt/sge_spool/8.5.1/nxn32/job_scripts/171175: line 16: 25360 Aborted                 (core dumped) g09 ${1::-4}-mega_UFF.com ${1::-4}-mega_UFF.out
+Traceback (most recent call last):
+  File "/data/home/btx008/compchem-scripts/rel2xyz.py", line 13, in <module>
+    mega=ha.make_mega_cell(atoms,3,3,3,vectors,alt_multi=True)
+TypeError: make_mega_cell() got an unexpected keyword argument 'alt_multi'
+Traceback (most recent call last):
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 24, in <module>
+    natoms=len(molecules[0])
+IndexError: list index out of range
+ Unable to open input file "2hc_1_444-mega_UFF.com" or "2hc_1_444-mega_UFF.com".
+Error: segmentation violation
+   rax 0000000000000000, rbx 0000000000000016, rcx ffffffffffffffff
+   rdx 000000000000679a, rsp 00007ffd8db11148, rbp 00007ffd8db18680
+   rsi 000000000000000b, rdi 000000000000679a, r8  00002ae87bff82c0
+   r9  0000000000000000, r10 00007ffd8db10ed0, r11 0000000000000206
+   r12 ffffffffffffffff, r13 00007ffd8db18780, r14 0000000000000000
+   r15 0000000000000000
+  --- traceback not available
+/opt/sge_spool/8.5.1/nxn32/job_scripts/171184: line 16: 26522 Aborted                 (core dumped) g09 ${1::-4}-mega_UFF.com ${1::-4}-mega_UFF.out
+2hc_1_444-mega.xyz
+2hc_1_444-mega_UFF.com
+Traceback (most recent call last):
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 24, in <module>
+    natoms=len(molecules[0])
+IndexError: list index out of range
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000072b6, rsp 00007ffcd7d31eb8, rbp 00007ffcd7d32430
+   rsi 000000000000000b, rdi 00000000000072b6, r8  00002b2d6f41c2c0
+   r9  0000000000000000, r10 00007ffcd7d31c40, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffcd7d32478
+   r15 00000000000003e6
+  --- traceback not available
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 34
+    jobname=args.input[:-4]+"_UFF
+                                ^
+SyntaxError: EOL while scanning string literal
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000007545, rsp 00007ffe3213cea8, rbp 00007ffe3213d420
+   rsi 000000000000000b, rdi 0000000000007545, r8  00002b62a0daf2c0
+   r9  0000000000000000, r10 00007ffe3213cc30, r11 0000000000000202
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffe3213d468
+   r15 00000000000003e6
+  --- traceback not available
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 34
+    jobname=args.input[:-4]+"_UFF
+                                ^
+SyntaxError: EOL while scanning string literal
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000000772a, rsp 00007ffe2e8d2e18, rbp 00007ffe2e8d3390
+   rsi 000000000000000b, rdi 000000000000772a, r8  00002b13067232c0
+   r9  0000000000000000, r10 00007ffe2e8d2ba0, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffe2e8d33d8
+   r15 00000000000003e6
+  --- traceback not available
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 34
+    jobname=args.input[:-4]+"_UFF
+                                ^
+SyntaxError: EOL while scanning string literal
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000007893, rsp 00007ffe85d9f4c8, rbp 00007ffe85d9fa40
+   rsi 000000000000000b, rdi 0000000000007893, r8  00002b2df10472c0
+   r9  0000000000000000, r10 00007ffe85d9f250, r11 0000000000000202
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffe85d9fa88
+   r15 00000000000003e6
+  --- traceback not available
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 34
+    jobname=args.input[:-4]+"_UFF
+                                ^
+SyntaxError: EOL while scanning string literal
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000001055, rsp 00007ffecf30c598, rbp 00007ffecf30cb10
+   rsi 000000000000000b, rdi 0000000000001055, r8  00002b28c879e2c0
+   r9  0000000000000000, r10 00007ffecf30c320, r11 0000000000000202
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffecf30cb58
+   r15 00000000000003e6
+  --- traceback not available
+Time to make cluster: 626.790989876s
+
+Total time: 628.576421022s
+Time to make cluster: 1366.69187403s
+Cluster centroid: -1.2742833075 6.59051642563 8.63521419313
+Central molecule centroid: -3.15714437838 6.66640332432 9.07731635135
+
+Total time: 1374.97624612s
+Traceback (most recent call last):
+  File "/data/home/btx008/compchem-scripts/rel2xyz.py", line 9, in <module>
+    atoms=rf.read_qe(QE_f)
+  File "/data/home/btx008/cryspy/read_file.py", line 307, in read_qe
+    with open(in_name) as file_qe:
+IOError: [Errno 2] No such file or directory: '2hc_1_444-mega_UFF-s1'
+Traceback (most recent call last):
+  File "/data/home/btx008/compchem-scripts/g09_UFF_input.py", line 39, in <module>
+    cluster=rf.read_xyz(args.input)[-1]
+  File "/data/home/btx008/cryspy/read_file.py", line 86, in read_xyz
+    with open(in_name) as xyz_file:
+IOError: [Errno 2] No such file or directory: '2hc_1_444-mega_UF-mega.xyz'
+ Unable to open input file "2hc_1_444-mega_UF-mega_UFF.com" or "2hc_1_444-mega_UF-mega_UFF.com".
+Error: segmentation violation
+   rax 0000000000000000, rbx 000000000000001e, rcx ffffffffffffffff
+   rdx 00000000000062be, rsp 00007ffe7d78c4c8, rbp 00007ffe7d793a00
+   rsi 000000000000000b, rdi 00000000000062be, r8  00002b7dca5e32c0
+   r9  0000000000000000, r10 00007ffe7d78c250, r11 0000000000000202
+   r12 ffffffffffffffff, r13 00007ffe7d793b00, r14 0000000000000000
+   r15 0000000000000000
+  --- traceback not available
+/opt/sge_spool/8.5.1/nxn34/job_scripts/174842: line 17: 25278 Aborted                 (core dumped) g09 ${1::-4}-mega_UFF.com ${1::-4}-mega_UFF.out
